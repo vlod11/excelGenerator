@@ -70,13 +70,12 @@ namespace ExcelUnivWork1
                 firstOriginalDataRow.Cell(12).FormulaA1 = $"=P{currentRow}+$K$2";
                 firstOriginalDataRow.Cell(13).FormulaA1 = $"=Q{currentRow}+$K$2";
 
-                firstOriginalDataRow.Cell(15).FormulaA1 = $"=$J{currentRow}*COS($G{currentRow}*M{currentRow})";
-                firstOriginalDataRow.Cell(16).FormulaA1 = $"=$J{currentRow}*COS($G{currentRow}*N{currentRow})";
-                firstOriginalDataRow.Cell(17).FormulaA1 = $"=$J{currentRow}*COS($G{currentRow}*O{currentRow})";
-                firstOriginalDataRow.Cell(18).FormulaA1 = $"=$J{currentRow}*COS($G{currentRow}*P{currentRow})";
-                firstOriginalDataRow.Cell(19).FormulaA1 = $"=$J{currentRow}*COS($G{currentRow}*Q{currentRow})";
-                firstOriginalDataRow.Cell(20).FormulaA1 = $"=$J{currentRow}*COS($G{currentRow}*R{currentRow})";
-
+                firstOriginalDataRow.Cell(15).FormulaA1 = $"=(SQRT($B$8)*$J{currentRow}*SIN((SQRT($G{currentRow})/SQRT($B$8))*$M{currentRow}))/SQRT($G{currentRow})";
+                firstOriginalDataRow.Cell(16).FormulaA1 = $"=(SQRT($B$8)*$J{currentRow}*SIN((SQRT($G{currentRow})/SQRT($B$8))*$N{currentRow}))/SQRT($G{currentRow})";
+                firstOriginalDataRow.Cell(17).FormulaA1 = $"=(SQRT($B$8)*$J{currentRow}*SIN((SQRT($G{currentRow})/SQRT($B$8))*$O{currentRow}))/SQRT($G{currentRow})";
+                firstOriginalDataRow.Cell(18).FormulaA1 = $"=(SQRT($B$8)*$J{currentRow}*SIN((SQRT($G{currentRow})/SQRT($B$8))*$P{currentRow}))/SQRT($G{currentRow})";
+                firstOriginalDataRow.Cell(19).FormulaA1 = $"=(SQRT($B$8)*$J{currentRow}*SIN((SQRT($G{currentRow})/SQRT($B$8))*$Q{currentRow}))/SQRT($G{currentRow})";
+                firstOriginalDataRow.Cell(20).FormulaA1 = $"=(SQRT($B$8)*$J{currentRow}*SIN((SQRT($G{currentRow})/SQRT($B$8))*$R{currentRow}))/SQRT($G{currentRow})";
                 firstOriginalDataRow.Cell(21).FormulaA1 = $"=$G{currentRow}";
 
                 narmalize01DataRow.Cell(1).FormulaA1 =
